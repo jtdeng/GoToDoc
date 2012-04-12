@@ -1,0 +1,7 @@
+[
+	{
+		"keys": ["ctrl+shift+g"],
+		"command": "go_to_doc",
+		"context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
+	}
+]
