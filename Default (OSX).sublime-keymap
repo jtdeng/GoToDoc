@@ -1,7 +1,12 @@
 [
 	{
-		"keys": ["super+g"],
-		"command": "go_to_doc" ,
+		"keys": ["super+ctrl+e"],
+		"command": "go_to_doc_exact" ,
+		"context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
+	},
+	{
+		"keys": ["super+ctrl+l"],
+		"command": "go_to_doc_lucky" ,
 		"context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
 	}
 ]
