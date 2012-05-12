@@ -23,7 +23,8 @@ You can install from github.com, or using Sublime Text 2 Package Control
 	$ git clone git://github.com/jtdeng/GoToDoc.git GoToDoc
 
 ### Using Package Control
-	TODO
+	Now you can install inside sublime text 2 with package control
+	
 
 
 ## Settings
